@@ -15,17 +15,17 @@ Claude saves results in the course's folder and commits them.
 
 ## Adding a class
 
-Tell Claude "add CS106B" and paste the syllabus, or at least the course's AI
-policy. The more Claude has (schedule, handouts, slides), the more it can help.
+Tell Claude "add CS106B" and paste the syllabus. The more Claude
+has (schedule, handouts, slides), the more it can help.
 
 ## Layout
 
 | Path | What's there |
 |---|---|
 | `TASKS.md` | Task board |
-| `courses/<CODE>/README.md` | Course card: links, AI policy, grading, deadlines |
+| `courses/<CODE>/README.md` | Course card: links, grading, deadlines |
 | `courses/<CODE>/assignments/` | One folder per assignment |
 | `courses/<CODE>/notes/` | Lecture and reading notes |
 | `courses/<CODE>/study/` | Study guides, practice problems, flashcards |
 | `courses/_template/` | Starting point for a new class |
-| `CLAUDE.md` | How Claude works here, including how it handles graded work |
+| `CLAUDE.md` | How Claude works here |
